@@ -82,6 +82,7 @@ let timer = setInterval(() => {
     document.querySelector('.timer h1').textContent = ` ${timeOut--}`
     if (timeOut < 0) {
         document.querySelector('.countDown').style.opacity = 0;
+        document.querySelector('.balloon').style.opacity = 1;
 
         clearInterval(timer);
         startAll();
