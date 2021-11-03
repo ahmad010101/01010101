@@ -17,7 +17,7 @@ function startAll() {
     const container = document.querySelector('.fireworks');
     const fireworks = new Fireworks(container, {
         rocketsPoint: 50, // center
-        speed: 20,
+        speed: 2,
         acceleration: 1.2,
         friction: 1,
         gravity: 1.8,
