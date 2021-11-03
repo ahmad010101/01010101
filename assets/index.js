@@ -1,5 +1,18 @@
-let song = document.querySelector('#hbdAudio');
 function startAll() {
+
+    anime({
+        targets: '.Texts',
+        translateX: [570 , 0],
+        duration: 4500,
+    opacity: [0,1] 
+      });
+       anime({
+        targets: '.imgBorder',
+        translateY: [-570 , 0],
+        duration: 4500,
+    opacity: [0,1] 
+      });
+
     let animeLetter = function (target, delay) {
         anime({
             targets: target,
@@ -61,7 +74,7 @@ function startAll() {
     });
     
     fireworks.start();
-    song.play();
+    document.querySelector('#hbdAudio').play();
     
 }
 let timeOut = 5;
