@@ -63,7 +63,6 @@ function startAll() {
     fireworks.start();
     song.play();
     
-    document.querySelector('.hbdText').style.opacity = 1;
 }
 let timeOut = 5;
 let timer = setInterval(() => {
