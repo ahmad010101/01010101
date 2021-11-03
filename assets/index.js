@@ -74,7 +74,6 @@ function startAll() {
     });
     
     fireworks.start();
-    document.querySelector('#hbdAudio').muted = false;
     document.querySelector('#hbdAudio').play();
     
 }
