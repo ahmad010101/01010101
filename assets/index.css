@@ -23,7 +23,7 @@ body {
 
 .countDown {
   position: fixed;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   background-color: #ccffa2;
   display: -webkit-box;
@@ -177,19 +177,13 @@ body {
   margin-right: auto;
 }
 
-marquee {
-  -webkit-transition: opacity 5s ease-in-out;
-  transition: opacity 5s ease-in-out;
+.hbdText {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
   opacity: 0;
-  height: 15rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-marquee h1 {
+  -webkit-transition: opacity 4.5s linear;
+  transition: opacity 4.5s linear;
   font-family: "Satisfy", cursive;
   color: #EAF0F4;
   font-size: clamp(2rem , 3vw , 3vw);

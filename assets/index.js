@@ -59,13 +59,13 @@ function startAll() {
             max: 3
         }
     });
-
+    
     fireworks.start();
     song.play();
-    document.querySelector('marquee').style.opacity = 1;
-
+    
+    document.querySelector('.hbdText').style.opacity = 1;
 }
-let timeOut = 8;
+let timeOut = 5;
 let timer = setInterval(() => {
     document.querySelector('.timer h1').textContent = ` ${timeOut--}`
     if (timeOut < 0) {
