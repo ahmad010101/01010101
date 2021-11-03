@@ -73,7 +73,7 @@ let timer = setInterval(() => {
 
         clearInterval(timer);
         startAll();
-        
+         
     }
 }, 1000)
 
